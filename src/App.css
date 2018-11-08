@@ -1,0 +1,305 @@
+#form .form_ {
+  height: 50px !important;
+  background-color: #f5f5f5 !important;
+  color: black !important;
+  border: 1px solid #f5f5f5 !important;
+}
+
+.user {
+  padding: 40px;
+  border: 20px;
+  -webkit-box-shadow: -3px 0px 45px -6px rgba(56, 75, 99, 0.61);
+  -moz-box-shadow: -3px 0px 45px -6px rgba(56, 75, 99, 0.61);
+  box-shadow: -3px 0px 45px -6px rgba(56, 75, 99, 0.61);
+  border-radius: 0 0px 0px 0;
+}
+
+.btn-style {
+  background: #1a237e !important;
+  border: 1px solid #1a237e !important;
+}
+
+.btn-style2 {
+  background: #64dd17 !important;
+  border: 1px solid #64dd17 !important;
+}
+
+.navbar-nav > li {
+  padding-top: 18px;
+  padding-right: 15px;
+  padding-bottom: 13px;
+  padding-left: 15px;
+}
+
+.navbar-nav > .nav-item > .nav-link:hover {
+  color: #3b3e59;
+}
+
+.navbar-brand {
+  color: #3b3e59;
+}
+
+.fixed-top {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 2;
+}
+
+.nav-link {
+  font: 15px greatests;
+
+  color: #3b3e59;
+}
+
+.logo-blue {
+  display: none;
+}
+
+@media only screen and (max-width: 768px) {
+  /* .navbar-collapse {
+    background: #bbdefb;
+}
+ */
+  .navbar-collapse {
+    color: black !important;
+    background-color: #fff;
+  }
+  .navbar-light {
+    padding-top: 10px;
+    padding-bottom: 5px;
+
+    font: 23px greatests;
+  }
+
+  .collapse .nav .active a:hover {
+    color: #a9b7c0;
+    background-color: #efd9c1;
+  }
+  .save-logo {
+    padding-top: 10px !important;
+    padding-bottom: 5px !important;
+  }
+  .save-logo {
+    display: none;
+  }
+
+  .logo-blue {
+    display: block;
+    height: 37px;
+  }
+}
+
+.save-logo {
+  padding-top: 10px;
+  padding-bottom: 5px;
+}
+.navbar-collapse > ul {
+  text-align: center;
+}
+
+.shadow-header {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.22);
+}
+
+.toggle-bar2 {
+  font-size: 28px;
+
+  color: #199ab1 !important;
+}
+
+.text-link {
+  margin-left: 20px;
+  color: #fff !important;
+}
+
+.logo-img {
+  height: 70px !important;
+}
+
+.bg-navbar {
+  background-color: #311b92 !important;
+  border: 1px solid #311b92 !important;
+  color: #fff !important;
+}
+
+.jumbo-container {
+  height: 100%;
+}
+
+.jumbo-container22 {
+  padding-top: 100px;
+}
+
+.jumbo1 {
+  height: 60vh;
+
+  color: black;
+  background-color: white;
+  background-image: url(./img/jumbo2.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.jumbo2 {
+  height: 50vh;
+
+  color: black;
+  background-color: white;
+  background-image: url(./img/jumbo1.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.jumbo3 {
+  height: 70vh;
+
+  color: black;
+  background-color: white;
+  background-image: url(./img/jumbo3.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.jumbo4 {
+  height: 70vh;
+
+  color: black;
+  background-color: white;
+  background-image: url(./img/jumbo4.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.jumbo5 {
+  height: 70vh;
+
+  color: black;
+  background-color: white;
+  background-image: url(./img/jumbo5.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.jumbo6 {
+  height: 70vh;
+
+  color: black;
+  background-color: white;
+  background-image: url(./img/jumbo1.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.text-div1 {
+  padding-top: 30px;
+  padding-bottom: 50px;
+}
+
+.base-home {
+  position: relative;
+  bottom: 35%;
+}
+
+.home-title {
+  display: table-cell;
+
+  font: 36px;
+
+  vertical-align: middle;
+
+  color: #fff;
+}
+
+.home-titleDiv1 {
+  display: table-cell;
+
+  font: 36px;
+
+  vertical-align: middle;
+
+  color: black;
+}
+
+.text-div2 {
+  font-size: 36px;
+}
+
+.div2-padding {
+  padding-top: 30px;
+  padding-bottom: 50px;
+}
+
+.home-subtitle {
+  display: block;
+  margin-bottom: 15px;
+
+  font: 14.9px;
+
+  color: #fff;
+}
+
+.home-subtitleDiv1 {
+  display: block;
+  margin-bottom: 15px;
+
+  font: 14.9px;
+
+  color: black;
+}
+
+. subtitle-content {
+  margin-top: 20px;
+}
+
+#small-screen {
+  display: none;
+}
+
+@media only screen and (max-width: 780px) {
+  #small-screen {
+    display: block;
+  }
+
+  .jumbo1 {
+    display: none;
+  }
+  .phone-save-pic {
+    width: 100%;
+    height: auto;
+  }
+  .home-title-landscape {
+    font: 36px;
+
+    color: #199ab1;
+  }
+  .adjust-bottom {
+    padding-bottom: 55px;
+  }
+}
+
+.small-jumbo {
+  padding-top: 100px;
+}
+
+@media (min-height: 680px) and (orientation: landscape) {
+  .style-landscape {
+    color: red !important;
+  }
+  .home-title-landscape {
+    font: 36px;
+
+    color: #199ab1;
+  }
+}
+
+.home-padding {
+  padding-bottom: 12px;
+}
